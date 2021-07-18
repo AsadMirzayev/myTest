@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height: 500px ;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: absolute;  
+}
+
+header nav ul li a{
+    text-decoration: none;
+  
+}
+header nav ul {
+    list-style-type: none;
+    
+}
+header nav ul a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+li{
+    float: left;
+    
+}
+a{
+    color: red;
+    /* background-color: black; */
+   
+    
+
+}
+.box {
+    float: right;
+    
+}
+.box a{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+.box{
+    background-color: blue;
+    overflow: scroll;
+    width: 200px;
+    height: 200px;
+}
+::selection{
+    background-color: red;
+    color: white;
+}
